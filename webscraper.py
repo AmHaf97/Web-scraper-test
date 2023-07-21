@@ -7,9 +7,9 @@ from selenium.webdriver.chrome.options import Options
 
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-url = ''
+url = '' #lägg till URL för sidan som ska skrapas
 browser = webdriver.Chrome()
 browser.get(url)
 
 
-browser.find_element('').click()
+browser.find_element('').click() #lägg till html div (xpath)
